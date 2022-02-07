@@ -1,0 +1,65 @@
+let marks = 69;
+if (marks>=90) {
+	console.log("A Grade");
+}
+if (marks<90 && marks>=80) {
+	console.log("B Grade");
+}
+if (marks<80 && marks>=70) {
+	console.log("C Grade");
+}
+if (marks<70) {
+	console.log("FAIL");
+}
+
+
+
+
+let Tempreture = 49;
+if (Tempreture<=0) {
+	console.log("Freezing weather");
+}
+if (Tempreture>0 && Tempreture<10) {
+	console.log("Very Cold weather");
+}
+if (Tempreture>=10 && Tempreture<20) {
+	console.log("Cold weather");
+}
+if (Tempreture>=20 && Tempreture<30) {
+	console.log("Normal in Temp");
+}
+if (Tempreture>=30 && Tempreture<40) {
+	console.log("Its Hot");
+}
+if (Tempreture>=40 && Tempreture<50) {
+	console.log("Its Very Hot");
+}
+
+
+
+
+let Unit = 600;
+if (Unit<=199) {
+	let bill = Unit*1.20;
+	if (bill<100)
+		bill = 100
+	console.log(bill);
+}
+if (Unit>=200 && Unit<400) {
+	let bill = Unit*1.50;
+	if (bill>400) 
+	 bill = bill+bill*0.15;
+	console.log(bill);
+}
+if (Unit>=400 && Unit<600) {
+	let bill = Unit*1.80;
+	if (bill>400)
+	 bill = bill+bill*0.15;
+	console.log(bill);
+}
+if (Unit>=600) {
+	let bill = Unit*2;
+	if (bill>400) 
+	 bill = bill+bill*0.15;
+	console.log(bill);
+}

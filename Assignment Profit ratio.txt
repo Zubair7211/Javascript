@@ -1,0 +1,11 @@
+let x = 10000;
+let p = 1000;
+let charity = p * 10 / 100;
+console.log(charity);
+let r = p - charity;
+let a = r * 50 / 100;
+console.log(a);
+let b = r * 30 / 100;
+console.log(b);
+let k = r * 20 / 100;
+console.log(k);
